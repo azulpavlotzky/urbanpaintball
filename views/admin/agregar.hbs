@@ -1,0 +1,27 @@
+<div class="container">
+ <div class="row">
+       <div class="col-6 offset-3">
+        <h3 style="color: white;font-size:30px;">Agregar una novedad</h3>
+       <form action="/admin/novedades/agregar" method="post">
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" name="titulo">
+  </div>
+  <div class="form-group">
+    <textarea class="form-control" id="myTextarea" placeholder="Subtitulo" rows="3" name="subtitulo"></textarea>
+  </div>
+   <div class="form-group">
+    <textarea class="form-control" id="myTextarea" placeholder="Cuerpo" rows="4" name="cuerpo"></textarea>
+  </div>
+  {{!-- <form>
+  <div class="form-group"> 
+    <input type="file" class="form-control-file" id="exampleFormControlFile1" placeholder="archivoinsert" name="archivoinsert">
+  </div>
+</form> --}}
+  <button  type="submit" class="btn btn-primary">Agregar</button>
+</form>
+{{#if error}}
+ <h5 style="color: rgb(221, 218, 26);margin-top:3%;font-size:24px">{{message}}</h5>
+ {{/if}}
+ </div>
+ </div>
+</div>

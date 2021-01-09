@@ -1,0 +1,181 @@
+.evento p{
+    color: white;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: normal;
+    text-align: justify;
+    font-family: 'Boogaloo', cursive;
+    margin-bottom: 2%;
+}
+.equipo h2{
+    color: white;
+    font-size: 39px;
+    font-family: 'Graduate', cursive;
+    text-align: center;
+    margin-top: 6%;
+    font-weight: bolder;
+}
+.equipo h3{
+    text-align: center;
+    color: rgb(169,172,11);
+    font-family: 'Graduate', cursive;
+    font-weight: bolder;
+    font-size: 28px;
+    margin-top: 2%;
+    text-shadow: none;
+    margin-left: 0PX;
+    
+}
+.parrafo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+.servi-gastro h2{
+    text-align: center;
+    color: rgb(248, 242, 242);
+    font-family: 'Graduate', cursive;
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 2% 0;
+}
+.servi-gastro h3{
+    text-align: center;
+    color: rgb(169,172,11);
+    font-family: 'Graduate', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.list li{
+    color: rgb(169,172,11);
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: normal;
+    text-align: justify;
+    padding: 5px;
+    margin-left: 0px;
+}
+.list2{
+    color: white;
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: normal;
+    text-align: justify;
+    font-family: 'Boogaloo', cursive;
+    margin-left: 3px;
+    margin-top: 1%;
+} 
+.carousel-inner{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 5%;
+    box-shadow: 20px 30px 30px 0 black;
+    margin-top: 0;
+}
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-inner2{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 5%;
+    box-shadow: 20px 30px 30px 0 black;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.parrafo-2 p{
+    color: white;
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: normal;
+    text-align: justify;
+    font-family: 'Boogaloo', cursive;
+    margin-left: 0px;
+}
+.parrafo-2 a{
+    color: rgb(169,172,11);
+}
+.parrafo-2 a:hover{
+    text-decoration: none;
+    color: black;
+}
+span{
+    color:rgb(169,172,11);
+}
+@media screen and (max-width: 800px){
+    .evento p{
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .parrafo p{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .list li{
+        font-size: 24px;
+        padding-bottom: 0;
+        padding-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .parrafo-2 p{
+        font-size:22px;
+    }
+    .carousel-inner{
+        height: 400px;
+    }
+    .carousel-inner2{
+        height: 300px;
+    }
+}
+@media screen and (max-width:600px){
+    .evento{
+        margin-left: 0;
+        padding-left: 0;
+        margin-bottom: 10px;
+        font-size: 29px;
+    }
+    .evento p{
+        font-size: 22px;
+    }
+    .parrafo p{
+        font-size: 17px;
+    }
+    .equipo h2{
+    font-size: 25px;
+    }
+    .equipo h3{
+        font-size:23px
+    }
+    .servi-gastro h2{
+        font-size: 24px;
+    }
+    .servi-gastro h3{
+        font-size:15px;
+        line-height: 30px;
+    }
+    .list{
+        padding-left: 20px;
+    }
+    .parrafo-2 p{
+        font-size:21px;
+    }
+    .carousel-inner{
+        height: 300px;
+    }
+    .carousel-inner2{
+        height: 200px;
+        margin-top: 2%;
+    }
+}

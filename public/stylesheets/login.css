@@ -1,0 +1,23 @@
+.container{
+    margin: 8% auto;
+}
+.btn-primary{
+    
+    padding: 12px 40px;
+    background-color:rgb(180, 25, 25);
+    border: none;
+    font-size: 19px;
+    margin-top: 15px;
+}
+.btn-primary:hover{
+    background-color: rgb(3, 3, 3);
+}
+.btn{
+    transition: none;
+    line-height: 1,1px;
+}
+input.form-control{
+  padding: 25px 25px;
+  margin: 25px 0px 0px;
+  font-size: 20px;
+}

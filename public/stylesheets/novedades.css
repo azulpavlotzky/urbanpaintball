@@ -1,0 +1,61 @@
+.novedad h2{
+    color: rgb(235, 234, 228);
+    font-size: 38px;
+    line-height: 35px;
+    font-weight: normal;
+    text-align: left;
+    padding: 5px;
+    margin-left: 0px;
+    font-family: 'Boogaloo',cursive;
+    margin:3% 0;
+}
+.novedad h3{
+    color: rgb(199, 196, 19);
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: normal;
+    text-align: justify;
+    font-family: 'Boogaloo', cursive;
+    margin-left: 3px;
+    margin-top: 1%;
+    text-shadow: none;
+}
+.novedad p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 23px;
+    line-height: 30px;
+    color: #fff;
+}
+.corte{
+    width: 100%;
+    padding: 5px 0;
+}
+@media screen and (max-width: 800px){
+    .novedad h2{
+        font-size:30px;
+        text-align: center;
+    }
+    .novedad h3{
+        text-align:center;
+    }
+    .novedad p{
+        font-size:19px;
+        text-align: center;
+    }
+ }
+@media screen and (max-width: 600px){ 
+    .novedad h2{
+        font-size:28px;
+        padding:0px;
+        text-align:center;
+    }
+    .novedad h3{
+        text-align:center;
+    }
+    .novedad p{
+        font-size:19px;
+        text-align: center;
+    }
+}

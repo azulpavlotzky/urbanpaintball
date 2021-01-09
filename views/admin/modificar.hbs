@@ -1,0 +1,32 @@
+<div class="container">
+ <div class="row">
+     <div class="col-6 offset-3">
+      <h3 style="color: white;">Modificar la Novedad</h3>
+    <form action="/admin/novedades/modificar" method="post">
+    <input type="hidden" value="{{novedad.id}}" name="id">
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" rows="2" value="{{novedad.titulo}}" name="titulo">
+  </div>
+  <div class="form-group">
+    <textarea class="form-control" id="myTextarea" placeholder="Subtitulo" rows="3" name="subtitulo">{{novedad.subtitulo}}</textarea>
+  </div>
+   <div class="form-group">
+    <textarea class="form-control" id="myTextarea" placeholder="Cuerpo" rows="4" name="cuerpo">{{novedad.cuerpo}}</textarea>
+  </div>
+  {{!-- <form>
+  <div class="form-group"> 
+    <input type="file" class="form-control-file" id="exampleFormControlFile1" placeholder="archivoinsert" name="archivoinsert">
+  </div>
+</form> --}}
+  <button  type="submit" class="btn btn-primary">Modificar</button>
+ </form>
+ {{#if error}}
+ <h5>{{message}}</h5>
+ {{/if}}
+  </div>
+ </div>
+
+
+
+
+</div>

@@ -1,0 +1,21 @@
+.table tr td{
+    border:none;
+    font-size: 18px;
+    color: white;
+    width: auto;
+    
+}
+.table th{
+    border: none;
+    font-size: 20px;
+    font-family: 'Graduate', cursive;
+    color: rgb(206, 206, 14);
+}
+
+a{
+    font-family: 'Boogalo', cursive;
+
+}
+
+
+

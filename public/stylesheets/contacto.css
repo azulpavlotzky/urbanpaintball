@@ -1,0 +1,122 @@
+.contacto1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Graduate', cursive;
+    font-weight: bolder;
+    font-size: 35px;
+    margin: 30px auto;
+    margin-top: 18%;
+}
+iframe{
+    text-align: center;
+    padding: 0;
+    margin-top: 2%;
+}
+.contacto2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Graduate', cursive;
+    font-weight: bolder;
+    font-size: 33px;
+}
+.contacto3{
+    color: #fff;
+    text-align: center;
+}
+.contacto4{
+    color:rgb(199, 199, 10);
+    text-align:center;
+}
+.formulario{
+    text-align: center;
+}
+.formulario label{
+    width: 90%;
+    display: inline-block;
+    font-size: 23px;
+    font-family: 'Boogaloo', cursive;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.formulario label.error{
+    text-shadow: none;
+    color: rgb(199, 199, 10);
+    font-size: 22px;
+    padding-top: 5px;
+    font-family:'Alegreya Sans SC', sans-serif;
+}
+.formulario input.error, .formulario textarea.error{
+    background-color: rgba(146, 146, 137, 0.747);
+    border: 2px solid black;
+}
+
+.formulario input, .formulario textarea{
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 13px;
+    padding:0.4em 0.6em;
+    width: 90%;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+.formulario textarea{
+    height: 89px;
+    resize: none;
+}
+.acciones{
+    text-align: center;
+}
+.formulario input[type="submit"]{
+    font-size: 19px;
+    width: 35%;
+    font-family: 'Boogaloo', cursive;
+}
+
+/* incio 768px */
+@media screen and (max-width: 768px){ 
+.contacto1{
+    font-size: 30px;
+    margin-top: 25%;
+}
+iframe{
+    height: 300px;
+}
+  .contacto2{
+      font-size: 25px;
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+
+.contacto5{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Graduate', cursive;
+    font-weight: bolder;
+    font-size: 33px;
+    margin: 30px;
+    background-color: black;
+    box-shadow:  4px 2px 5px rgb(121, 9, 9);
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}
+.mensaje{
+      font-size: 27px;
+      color: rgb(199, 199, 10);
+      margin-left: 6%;
+      margin-top: 13px;
+  }
+/* fin 768px */
+@media screen and (max-width: 600px){ 
+    .contacto1{
+        font-size: 22px;
+        margin-top: 25%;
+        margin-left: 0;
+        margin-right: 0px;
+    }
+    iframe{
+        height: 240px;
+    }
+}
